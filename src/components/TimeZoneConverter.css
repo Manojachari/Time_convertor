@@ -1,0 +1,40 @@
+.timezone-converter {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Light mode styles */
+  .timezone-converter.light {
+    background-color: #f9f9f9;
+    color: #000; /* Text color for light mode */
+  }
+  
+  /* Dark mode styles */
+  .timezone-converter.dark {
+    background-color: #333;
+    color: #fff; /* Text color for dark mode */
+  }
+  
+  /* Button styles */
+  button {
+    margin-top: 10px;
+    margin-right: ;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  

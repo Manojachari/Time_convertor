@@ -1,0 +1,29 @@
+.timezone-display {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: inherit; /* Inherit text color from parent */
+  }
+  
+  /* Adjust the border and background color for dark mode */
+  .timezone-converter.dark .timezone-display {
+    background-color: #444;
+    border-color: #555;
+  }
+  
+  .timezone-display button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .timezone-display button:hover {
+    background-color: darkred;
+  }
+  

@@ -1,0 +1,35 @@
+.add-timezone-form {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .add-timezone-form input {
+    flex-grow: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: inherit; /* Inherit text color from parent */
+  }
+  
+  /* Adjust input background and border color for dark mode */
+  .timezone-converter.dark .add-timezone-form input {
+    background-color: #555;
+    border-color: #777;
+    color: #fff; /* Ensure text is visible in dark mode */
+  }
+  
+  .add-timezone-form button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-timezone-form button:hover {
+    background-color: #0056b3;
+  }
+  
